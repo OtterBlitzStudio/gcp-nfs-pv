@@ -1,0 +1,9 @@
+apiVersion: v2
+name: gcp-nfs-pv
+description: A Helm chart for a nfs server on google cloud platform and a pv
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+maintainers: 
+  - name: Otter Blitz Studio
+    email: developer@otter-blitz-studio.de

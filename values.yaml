@@ -1,0 +1,8 @@
+cluster: svc.cluster.local
+pvStorage: 10Gi
+diskName: test-disk
+image: gcr.io/google_containers/volume-nfs:0.8
+ports:
+    nfs: 2049
+    mountd: 20048
+    rpcbind: 111
