@@ -31,5 +31,5 @@ spec:
       volumes:
         - name: disk
           gcePersistentDisk:
-            pdName: {{.Values.diskName}}
+            pdName: {{required "Please provide .Values.diskName " .Values.diskName}}
             fsType: ext4
